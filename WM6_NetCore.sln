@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ders1", "Ders1", "{43536ACD-376A-4740-84A7-6DDD915F43D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAplication", "CoreAplication\CoreAplication.csproj", "{B7A9D1D2-54CF-4EC5-A5DF-830586D38B86}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A9D1D2-54CF-4EC5-A5DF-830586D38B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A9D1D2-54CF-4EC5-A5DF-830586D38B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A9D1D2-54CF-4EC5-A5DF-830586D38B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A9D1D2-54CF-4EC5-A5DF-830586D38B86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7A9D1D2-54CF-4EC5-A5DF-830586D38B86} = {43536ACD-376A-4740-84A7-6DDD915F43D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E466CA8-D75F-4B0F-A0FE-A6569EAEA48A}
