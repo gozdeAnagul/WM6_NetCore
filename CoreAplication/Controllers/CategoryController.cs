@@ -13,7 +13,10 @@ namespace CoreAplication.Controllers
         public IActionResult Index()
         {
             var db = new MyContext();
-            var data = db.Categories.Include(x=>x.Products).OrderBy(x => x.CategoryName).ToList();
+            var data = db.Categories.Include(x=>x.Products)
+                //.ThenInclude(x=>x.Suppliers)
+                .OrderBy(x => x.CategoryName)
+                .ToList();
             return View(data);
         }
         [HttpGet]
